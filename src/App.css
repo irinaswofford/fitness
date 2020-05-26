@@ -3,7 +3,7 @@ div.divBody {
 }
 
 div.divHeroHolder {
-  z-index: 20;
+  z-index: 1000;
   width: 100%;
   position: relative;
   margin: 0px auto;
@@ -32,7 +32,7 @@ div.divTopMenuBarWhite {
 
 ul.headerMenu {
   float: right;
-  margin: 15px 30px 0px 0px;
+  padding: 15px 30px 0px 0px;
 }
 
 ul.ulRightFooter_selectLanguage {
@@ -267,7 +267,6 @@ ul.headerMenu div.bm-burger-button {
   background: rgb(62, 60, 59);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
-  margin-top: 16px;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -480,7 +479,7 @@ ul.headerMenuWhite {
   /*  float: right;
   margin: 1px 20px 0px 0px; */
   position: absolute;
-  right: 18px;
+  right: 10px;
   top: 13px;
 }
 
@@ -682,13 +681,13 @@ span.hideHeaderMobile {
     margin: 60px auto 0px auto;
   }
   div.divHeroBlurbHolder {
-    top: 240px;
-    left: 20px;
+    top: 164px;
+    left: 65px;
   }
   div.divHeroBlurb {
-    line-height: 35px;
+    line-height: 20px;
     color: white;
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 8px;
   }
   div.reviewQuotes {
@@ -698,7 +697,7 @@ span.hideHeaderMobile {
     display: none;
   }
   .bm-burger-button {
-    top: 86px;
+    top: 10px;
   }
   .responsive {
     width: 100%;
@@ -731,7 +730,7 @@ span.hideHeaderMobile {
   ul.headerMenu div.bm-burger-button {
     width: 12px;
     height: 12px;
-    top: 11px;
+    top: -10px;
   }
   div.divHeroBlurbSubText {
     display: none;
@@ -749,7 +748,7 @@ span.hideHeaderMobile {
     margin: 15px auto 15px auto;
   }
   input[type=checkbox]+label {
-    left: 129px;
+    left: 84px;
   }
   div.divSubHeaderGrid {
     font-size: 14px;
@@ -796,7 +795,7 @@ span.hideHeaderMobile {
   }
   .viewMore {
     font-size: 14px;
-    width: 102px;
+    width: 127px;
     height: 40px;
     font-weight: 400;
   }
