@@ -481,7 +481,7 @@ ul.headerMenuWhite {
   margin: 1px 20px 0px 0px; */
   position: absolute;
   right: 18px;
-  top: 8px;
+  top: 13px;
 }
 
 ul.headerMenuWhite li {
@@ -894,7 +894,7 @@ span.hideHeaderMobile {
 
 /* full width large computer screen*/
 
-@media only screen and (min-width: 1301px) and (max-width: 1499px) {
+@media only screen and (min-width: 1301px) and (max-width: 1599px) {
   div.divHeroHolder {
     max-height: 1130px;
   }
@@ -904,8 +904,8 @@ span.hideHeaderMobile {
   div.divHeroBlurbHolder {
     z-index: 30;
     position: absolute;
-    top: 400px;
-    left: 251px;
+    top: 267px;
+    left: 174px;
     user-select: none;
   }
   div.divHeroBlurb {
@@ -918,7 +918,7 @@ span.hideHeaderMobile {
   }
   div.divHeroBlurbSubText {
     width: 450px;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 28px;
   }
   .responsive {
@@ -929,7 +929,7 @@ span.hideHeaderMobile {
   }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1600px) {
   div.divHeroHolder {
     max-height: 1130px;
   }
