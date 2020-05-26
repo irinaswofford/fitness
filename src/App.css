@@ -17,7 +17,7 @@ div.divTopMenuBar {
   top: 0px;
   width: 100%;
   height: 100px;
-  border-bottom: solid 1px gray;
+  /* border-bottom: solid 1px gray; */
 }
 
 div.divTopMenuBarBlack {
@@ -26,7 +26,7 @@ div.divTopMenuBarBlack {
 }
 
 div.divTopMenuBarWhite {
-  height: 40px;
+  height: 50px;
   background-color: rgba(255, 255, 255, 0.75);
 }
 
@@ -106,7 +106,7 @@ img.imgHero {
   -webkit-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.22);
   -moz-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.22);
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.22);
-  border-bottom:solid 1px gray;
+  border-bottom: solid 1px gray;
 }
 
 div.divHeroBlurbHolder {
@@ -170,7 +170,7 @@ div.divWhiteMenuBarContent {
   margin: 0px auto;
   font-weight: bold;
   font-size: 16px;
-  padding: 7px 0px 0px 0px;
+  padding: 9px 0px 0px 0px;
 }
 
 div.divContentHolder {
@@ -477,8 +477,11 @@ div.divFooterContent {
 }
 
 ul.headerMenuWhite {
-  float: right;
-  margin: 1px 20px 0px 0px;
+  /*  float: right;
+  margin: 1px 20px 0px 0px; */
+  position: absolute;
+  right: 18px;
+  top: 8px;
 }
 
 ul.headerMenuWhite li {
@@ -581,6 +584,7 @@ input[type=checkbox]:checked+label {
   opacity: 0;
 }
  */
+
 /* fade-enter */
 
 .fade-enter {
@@ -664,6 +668,10 @@ input[type=checkbox]:checked+label {
   z-index: 1;
 }
 
+span.hideHeaderMobile {
+  font-size: 20px;
+}
+
 /* phone */
 
 @media only screen and (max-width: 767px) {
@@ -673,8 +681,6 @@ input[type=checkbox]:checked+label {
   div.divHeroHolder img.imgHero {
     margin: 60px auto 0px auto;
   }
-
-
   div.divHeroBlurbHolder {
     top: 240px;
     left: 20px;
@@ -685,14 +691,12 @@ input[type=checkbox]:checked+label {
     font-size: 28px;
     margin-bottom: 8px;
   }
-
-  div.reviewQuotes{
+  div.reviewQuotes {
     font-size: 80px;
     font-family: "Times New Roman";
     color: rgb( 0, 150, 214);
-    display:none;
+    display: none;
   }
-
   .bm-burger-button {
     top: 86px;
   }
@@ -729,7 +733,6 @@ input[type=checkbox]:checked+label {
     height: 12px;
     top: 11px;
   }
-
   div.divHeroBlurbSubText {
     display: none;
   }
@@ -811,7 +814,6 @@ input[type=checkbox]:checked+label {
   div.divHeroBlurbHolder {
     top: 230px;
     left: 50px;
-    
   }
   div.divHeroBlurb {
     line-height: 40px;
@@ -831,8 +833,8 @@ input[type=checkbox]:checked+label {
   div.divHeroBlurbSubText {
     width: 430px;
     font-size: 16px;
-    background-color:rgba(0, 0, 0, 0.329);
-    padding:8px;
+    background-color: rgba(0, 0, 0, 0.329);
+    padding: 8px;
   }
   .reviewContent {
     width: 610px;
@@ -844,14 +846,13 @@ input[type=checkbox]:checked+label {
 
 /* computer screen */
 
-@media only screen and (min-width: 1025px) and (max-width: 1500px) {
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
   div.divHeroHolder img.imgHero {
     margin: -80px auto 0px auto;
   }
   div.divHeroHolder {
     max-height: 810px;
   }
-
   div.divHeroBlurbHolder {
     z-index: 30;
     position: absolute;
@@ -859,7 +860,6 @@ input[type=checkbox]:checked+label {
     left: 123px;
     user-select: none;
   }
-  
   div.divHeroBlurb {
     line-height: 44px;
     color: white;
@@ -871,12 +871,9 @@ input[type=checkbox]:checked+label {
   div.divHeroBlurbSubText {
     width: 430px;
     font-size: 16px;
-    background-color:rgba(0, 0, 0, 0.329);
-    padding:8px;
-    
+    background-color: rgba(0, 0, 0, 0.329);
+    padding: 8px;
   }
-
-
   .responsive {
     width: 100%;
     max-width: 210px;
@@ -887,7 +884,6 @@ input[type=checkbox]:checked+label {
   .carosel {
     min-height: 300px;
   }
-  
   .reviewContent {
     width: 610px;
   }
@@ -898,19 +894,33 @@ input[type=checkbox]:checked+label {
 
 /* full width large computer screen*/
 
-@media only screen and (min-width: 1501px) {
+@media only screen and (min-width: 1301px) and (max-width: 1499px) {
+  div.divHeroHolder {
+    max-height: 1130px;
+  }
   div.divHeroHolder img.imgHero {
     margin: -170px auto 0px auto;
   }
-
   div.divHeroBlurbHolder {
     z-index: 30;
     position: absolute;
-    top: 330px;
-    left: 225px;
+    top: 400px;
+    left: 251px;
     user-select: none;
   }
-
+  div.divHeroBlurb {
+    line-height: 50px;
+    color: white;
+    font-size: 55px;
+    display: inline-block;
+    font-family: RobotoLight;
+    margin-bottom: 18px;
+  }
+  div.divHeroBlurbSubText {
+    width: 450px;
+    font-size: 26px;
+    line-height: 28px;
+  }
   .responsive {
     width: 100%;
     height: auto;
@@ -919,11 +929,40 @@ input[type=checkbox]:checked+label {
   }
 }
 
-
-
-
-
-
+@media only screen and (min-width: 1500px) {
+  div.divHeroHolder {
+    max-height: 1130px;
+  }
+  div.divHeroHolder img.imgHero {
+    margin: -170px auto 0px auto;
+  }
+  div.divHeroBlurbHolder {
+    z-index: 30;
+    position: absolute;
+    top: 513px;
+    left: 280px;
+    user-select: none;
+  }
+  div.divHeroBlurb {
+    line-height: 55px;
+    color: white;
+    font-size: 60px;
+    display: inline-block;
+    font-family: RobotoLight;
+    margin-bottom: 18px;
+  }
+  div.divHeroBlurbSubText {
+    width: 530px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
 
 /* carousel only media queries*/
 
