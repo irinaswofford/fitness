@@ -1,0 +1,86 @@
+[
+    {
+       "id":1,
+       "imgURL":"images/jillian.jpg",
+       "imgAltText":"Jillian Michaels",
+       "captionText":"Get Fit with Jillian Michaels",
+       "subCaptionText":"weight loss"
+    },
+    {
+       "id":2,
+       "imgURL":"images/canyon.jpg",
+       "imgAltText":"Grand Canyon",
+       "captionText":"Grand Canyon",
+       "subCaptionText":"incline trainer"
+    },
+    {
+       "id":3,
+       "imgURL":"images/powerwalk.jpg",
+       "imgAltText":"Power Walk",
+       "captionText":"Power Walk",
+       "subCaptionText":"walking"
+    },
+    {
+       "id":4,
+       "imgURL":"http://localhost:3000/images/ellipitical.jpg",
+       "imgAltText":"Elliptical Weight Loss",
+       "captionText":"Elliptical Weight Loss",
+       "subCaptionText":"weight loss"
+    },
+    {
+       "id":5,
+       "imgURL":"images/bike.jpg",
+       "imgAltText":"Off Season Weight Loss",
+       "captionText":"Off Season Weight Loss",
+       "subCaptionText":"cycling"
+    },
+    {
+       "id":6,
+       "imgURL":"images/centralpark.jpg",
+       "imgAltText":"Central Park",
+       "captionText":"Central Park",
+       "subCaptionText":"fitness"
+    },
+    {
+       "id":7,
+       "imgURL":"images/fivek.jpg",
+       "imgAltText":"5K Beginner Training",
+       "captionText":"5K Beginner Training",
+       "subCaptionText":"running"
+    },
+    {
+       "id":8,
+       "imgURL":"images/costal.jpg",
+       "imgAltText":"Going Coastal",
+       "captionText":"Going Coastal",
+       "subCaptionText":"running"
+    },
+    {
+       "id":9,
+       "imgURL":"images/weightlossEliptical.jpg",
+       "imgAltText":"Elliptical Weight Loss",
+       "captionText":"Elliptical Weight Loss",
+       "subCaptionText":"weight loss"
+    },
+    {
+       "id":10,
+       "imgURL":"images/inclineTrain.jpg",
+       "imgAltText":"Incline Train",
+       "captionText":"Incline Train",
+       "subCaptionText":"incline trainer"
+    },
+    {
+       "id":11,
+       "imgURL":"images/paris.jpg",
+       "imgAltText":"Paris",
+       "captionText":"Paris",
+       "subCaptionText":"running"
+    },
+    {
+       "id":12,
+       "imgURL":"images/weightlossPrograms.jpg",
+       "imgAltText":"Lose Weight With Jillian Michaels",
+       "captionText":"Lose Weight With Jillian Michaels",
+       "subCaptionText":"weight loss"
+    }
+ ]
