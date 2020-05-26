@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/fitness/static/css/main.e6d340d9.chunk.css",
+    "main.js": "/fitness/static/js/main.62536d98.chunk.js",
+    "main.js.map": "/fitness/static/js/main.62536d98.chunk.js.map",
+    "runtime-main.js": "/fitness/static/js/runtime-main.ef800f66.js",
+    "runtime-main.js.map": "/fitness/static/js/runtime-main.ef800f66.js.map",
+    "static/css/2.6127c4b5.chunk.css": "/fitness/static/css/2.6127c4b5.chunk.css",
+    "static/js/2.1e730e7e.chunk.js": "/fitness/static/js/2.1e730e7e.chunk.js",
+    "static/js/2.1e730e7e.chunk.js.map": "/fitness/static/js/2.1e730e7e.chunk.js.map",
+    "index.html": "/fitness/index.html",
+    "precache-manifest.b836c428c0cc01948551a26dd9945f9b.js": "/fitness/precache-manifest.b836c428c0cc01948551a26dd9945f9b.js",
+    "service-worker.js": "/fitness/service-worker.js",
+    "static/css/2.6127c4b5.chunk.css.map": "/fitness/static/css/2.6127c4b5.chunk.css.map",
+    "static/css/main.e6d340d9.chunk.css.map": "/fitness/static/css/main.e6d340d9.chunk.css.map",
+    "static/js/2.1e730e7e.chunk.js.LICENSE.txt": "/fitness/static/js/2.1e730e7e.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/fitness/static/media/Roboto-Regular.11eabca2.ttf",
+    "static/media/hero_shadow.jpg": "/fitness/static/media/hero_shadow.1a52abf4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef800f66.js",
+    "static/css/2.6127c4b5.chunk.css",
+    "static/js/2.1e730e7e.chunk.js",
+    "static/css/main.e6d340d9.chunk.css",
+    "static/js/main.62536d98.chunk.js"
+  ]
+}
