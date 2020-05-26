@@ -48,7 +48,7 @@ class GridWorkoutPrograms extends Component {
     }
 
     fetchGridData() {
-        fetch(`http://localhost:3000/db.json`)
+        fetch('db.json')
             .then((res) => res.json())
             .then((data) => {
                 this.setState({ dataWorkoutPrograms: data });

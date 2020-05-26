@@ -22,7 +22,7 @@
     },
     {
        "id":4,
-       "imgURL":"http://localhost:3000/images/ellipitical.jpg",
+       "imgURL":"images/ellipitical.jpg",
        "imgAltText":"Elliptical Weight Loss",
        "captionText":"Elliptical Weight Loss",
        "subCaptionText":"weight loss"
